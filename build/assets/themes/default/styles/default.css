@@ -1,0 +1,10 @@
+/* Custom navigation styles */
+.minty-nav {
+    background-color: #c4ffc4;
+}
+/* Custom page styles */
+#page {
+    background-color: #abffab;
+    min-height: 100vh;
+    height: 100%;
+}

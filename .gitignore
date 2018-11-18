@@ -1,0 +1,31 @@
+# Ignore all files in the cache
+cache/
+
+# Ignore the composer lock file
+composer.lock
+
+# Ignore all composer files
+vendor/
+
+# Ignore emacs and nano temporary file thingies
+*~
+
+# Ignore all pages
+pages/
+
+# Don't ignore the 404 error page
+!pages/errors/404.md
+
+# Ignore all functions
+build/functions/*
+
+# Except for the built-in ones
+!build/functions/000-files.php
+!build/functions/001-crypto.php
+!build/functions/cache.php
+!build/functions/display_css.php
+!build/functions/get_footer.php
+!build/functions/get_header.php
+!build/functions/is_active.php
+!build/functions/load.php
+!build/functions/markdown.php

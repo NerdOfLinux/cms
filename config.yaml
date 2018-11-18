@@ -1,0 +1,7 @@
+site_name: site_name
+theme: default
+
+debug: False
+
+menu:
+  - Home
